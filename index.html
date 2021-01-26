@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asif's Bank</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-area">
+        <h1 class="text-center">Welcome To Asif's Bank</h1>
+        <div class="submit-area shadow rounded">
+            <input type="text" placeholder="Enter Your Email" class="form-control">
+            <br>
+            <input type="password" placeholder="Enter Your Password" class="form-control">
+            <br>
+            <div id="login" class="btn btn-success">Enter</div>
+        </div>
+    </div>
+
+    <script>
+        const loginBtn = document.getElementById('login');
+        loginBtn.addEventListener('click', function () {
+            console.log('amake click marche');
+        })
+    </script>
+</body>
+</html>
